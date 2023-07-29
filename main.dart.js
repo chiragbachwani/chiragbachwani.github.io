@@ -40914,12 +40914,14 @@ s=14}s=A.ck(l.a,2,B.b9,A.fq(n,n,B.A3,n,n,n,n,n,n,n,n,s,B.ay,n,n,n,n,!0,n,n,n,n,n
 if(A.aC(a,n,k).w.a.a<=700){r=A.aC(a,n,k).w.a.a<=500?0.34:0.64
 r=A.c8(A.alD(1.7777777777777777,!0,A.bl(0,0,3),!0,400,new A.a1m(o),l.d.length,new A.qo(n),r),300,n)
 q=A.aC(a,n,k).w.a.a<=700?230:350
-p=A.aC(a,n,k).w.a.a<=700?7:12
+if(A.aC(a,n,k).w.a.a<=700)p=7
+else p=A.aC(a,n,k).w.a.a<=500?5:12
 q=A.e3(A.a([r,A.c8(A.ck(l.b,p,B.b9,A.fq(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,1.5,!0,n,n,n,n,n,n,n,n),n),n,q)],t.p),B.D,B.c8)
 l=q}else{r=A.aC(a,n,k).w.a.a<1024?150:170
 r=A.c8(A.alD(1.7777777777777777,!0,B.Bz,!0,400,new A.a1n(o),l.d.length,n,1.5),340,r)
 q=A.aC(a,n,k).w.a.a<1024?130:170
-p=A.aC(a,n,k).w.a.a<=700?7:12
+if(A.aC(a,n,k).w.a.a<=700)p=7
+else p=A.aC(a,n,k).w.a.a<=500?5:12
 q=A.dB(A.a([r,A.c8(A.ck(l.b,p,B.b9,A.fq(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,1.5,!0,n,n,n,n,n,n,n,n),n),n,q)],t.p),B.D,B.Gs,B.O)
 l=q}if(A.aC(a,n,k).w.a.a<=700)k=14
 else k=A.aC(a,n,k).w.a.a<1024?15:20
